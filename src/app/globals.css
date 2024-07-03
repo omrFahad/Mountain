@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+    @apply py-12 md:py-16 lg:py-20
+}
+
+.btn {
+    @apply flex justify-center items-center gap-2 capitalize text-white py-2 px-6 rounded-md transition-all shadow-lg whitespace-nowrap
+}
+
+.btn-primary {
+    @apply bg-emerald-600 hover:bg-emerald-400
+}
+
+.btn-secondary {
+    @apply bg-teal-700 hover:bg-teal-600
+}
+
+.btn-outline {
+    @apply border border-teal-600 hover:bg-teal-800
+}
+
+.spot {
+    @apply absolute -z-10 rounded-full blur-3xl opacity-20
+}
+
+.social-link {
+    @apply w-4 md:w-5 lg:w-6 h-4 md:h-5 lg:h-6 hover:text-emerald-600 hover:-translate-y-1 transition-all
+}
