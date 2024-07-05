@@ -41,7 +41,7 @@ export default function Home() {
               </p>
               <Heading title="A CRM dashboard for engineering teams" />
               <p className=" max-w-[46rem] leading-normal sm:text-lg sm:leading-8">
-                Boost engineering team's productivity with Ocean CRM
+                Boost engineering team's productivity with Mounatain CRM
                 dashboard that streamlines project management, collaboration,
                 and data-driven decision-making.
 
